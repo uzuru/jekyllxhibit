@@ -14,7 +14,7 @@
 				{% endif %}
 			{%  endfor %}
 		{% else %}
-			<title>{{page.title}}</title>
+			<title>Project 2</title>
 			<meta name='description' content="{{page.content | truncate: 50 }}" />
 		{% endif %}
 		<meta name='author' content="{{ site.author }}" />
@@ -43,9 +43,10 @@
 						</li>
 					</ul>
 				{%  endfor %}
-				<div class='bot'><p>Creado por:<br />
+				<div class='bot'><p><br />
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/88px-CC-BY_icon.svg.png"><br>This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution International License.</a>
 				<a href='http://twitter.com/{{site.twitter}}'>{{site.author}}</a></p>
-				<p><a href='https://github.com/colaborativa/Jekyllxhibit'>Desarrollado con Jekyllxhibit</a></p></div>
+				<p><a href='https://github.com/colaborativa/Jekyllxhibit'>Built with Jekyllxhibit</a></p></div>
 			</div>
 		</div>
 		{% if page.title == 'index' %}
